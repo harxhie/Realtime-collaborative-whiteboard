@@ -5,6 +5,7 @@ const COLORS = ["#e63946", "#f4a261", "#2a9d8f", "#457b9d", "#9b5de5", "#ffffff"
 const SIZES = [2, 5, 10, 20];
 const generateId = () => Math.random().toString(36).slice(2, 9);
 
+
 export default function App() {
   const clientId = useRef(generateId());
   const wsRef = useRef(null);
