@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef, useCallback } from "react";
 
-const WS_URL = "ws://localhost:8000/ws";
+const WS_URL = "wss://your-backend-name.onrender.com/ws";
 const COLORS = ["#e63946", "#f4a261", "#2a9d8f", "#457b9d", "#9b5de5", "#ffffff", "#000000"];
 const SIZES = [2, 5, 10, 20];
 const generateId = () => Math.random().toString(36).slice(2, 9);
